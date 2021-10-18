@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-family: 'Red Hat Display', sans-serif;
+    background-image:url(../images/pattern-background-desktop.svg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-color:  hsl(225, 100%, 94%);
+}
+h1{
+    font-weight: 900;
+    color: hsl(223, 47%, 23%);
+    margin: 0 0 20px 0;
+}
+h2{
+    font-weight: 700;
+}
+p{
+    font-weight: 500;
+    color: hsl(224, 23%, 55%);
+    line-height: 1.5;
+    font-size: 1.2rem;
+}
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 330px;
+    border-radius: 15px;
+    text-align: center;
+}
+.white-part{
+    background-color: #fff;
+    border-radius: 0 0 15px 15px;
+    width: inherit;
+    position: inherit;
+    padding: 30px;
+
+}
+.image{
+    background-image: url(../images/illustration-hero.svg);
+    background-size: cover;
+    width: 330px;
+    height: 150px;
+    border-radius: 10px 10px 0px 0px;
+}
+.text{
+    margin-bottom: 20px;
+}
+.grey-part{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.plan{
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 0 10px;
+}
+
+.change{
+    margin: 0 0 0 50px;
+}
+
+.button {
+    -webkit-border-radius: 10;
+    -moz-border-radius: 10;
+    border-radius: 10px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 1.2rem;
+    font-family: 'Red Hat Display', sans-serif;
+    background:  hsl(245, 75%, 52%);
+    padding: 15px 40px 15px 40px;
+    text-decoration: none;
+    border: 0px;
+    width: 260px;
+    margin: 20px 0px;
+  }
+  
+  .button:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none; 
+  }
+
+
+.attribution { font-size: 11px; text-align: center; }
+  .attribution a { color: hsl(228, 45%, 44%); }
